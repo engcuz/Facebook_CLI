@@ -43,15 +43,15 @@ The Facebook CLI project is a command-line application that interacts with the F
     
 3.Install Dependencies Install the required Python libraries using pip.
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
   
 4.run run server script.
 
-python server.py
+    python server.py
   
 5.run the ngrok, to get the redirect url
 
-ngrok http 5001
+    ngrok http 5001
 
 
 6.open up a Facebook developer account, then add credentials in auth.py
@@ -61,8 +61,7 @@ ngrok http 5001
     redirect_uri: Your ngrok callback URL
     
 7.Run the CLI.
-
-  python cli.py
+    python cli.py
 
 
 
