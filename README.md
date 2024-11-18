@@ -61,6 +61,7 @@ The Facebook CLI project is a command-line application that interacts with the F
     redirect_uri: Your ngrok callback URL
     
 7.Run the CLI.
+
     python cli.py
 
 
